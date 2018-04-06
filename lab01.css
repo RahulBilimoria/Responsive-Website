@@ -1,0 +1,164 @@
+body{
+    background-color: #FFFFFF;
+}
+h2 {
+    margin-bottom: 0px;
+}
+main {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    margin: auto;
+}
+.cube {
+    padding: 5px 5px;
+    color: #222222;
+    background-color: #BBCDE5;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+}
+.cube:hover {
+    color: #BBCDE5;
+    background-color: #1C5D99;
+}
+figure {
+    text-align:center;
+}
+footer {
+    width: 99%;
+    float: left;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.8);
+    bottom: 0;
+}
+footer p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+nav {
+    width: 80%;
+    margin: auto;
+    padding: 20px 5px;
+}
+nav ul {
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1C5D99;
+}
+nav ul li{
+    float: left;
+    display: inline;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #BBCDE5;
+}
+details {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #222222;
+    border-radius: 10px;
+}
+@media	(min-width:	600px)	{
+    nav {
+        width: 100%;
+    }
+    main {
+        display: flex;
+        flex-flow: wrap;
+        width: 90%;
+        margin: auto;
+    }
+    .cube {
+        padding: 5px 5px;
+        color: #222222;
+        background-color: #BBCDE5;
+        width: 45%;
+        margin: auto;
+    }
+    .space {
+        margin: 5px auto;
+        width: 90%;
+        height: 10%;
+    }
+}
+@media	(min-width:	800px)	{
+    nav {
+        width: 80%;
+    }
+    main {
+        display: flex;
+        flex-flow: wrap;
+        width: 80%;
+        margin: auto;
+    }
+    .cube {
+        padding: 5px 5px;
+        color: #222222;
+        background-color: #BBCDE5;
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .space {
+        margin: auto;
+        width: 90%;
+        height: 10%;
+    }
+}
+@media	(min-width:	1024px)	{
+    nav {
+        width: 80%;
+    }
+    main {
+        display: flex;
+        flex-flow: wrap;
+        width: 80%;
+        margin: auto;
+    }
+    .cube {
+        padding: 5px 5px;
+        color: #222222;
+        background-color: #BBCDE5;
+        width: 45%;
+        margin: auto;
+    }
+    .space {
+        margin: 10px auto;
+        width: 90%;
+        height: 10%;
+    }
+}
+@media (min-width: 1280px){
+    nav {
+        width: 80%;
+    }
+    main {
+        display: flex;
+        flex-flow: wrap;
+        width: 80%;
+    }
+    .cube {
+        padding: 5px 5px;
+        color: #222222;
+        background-color: #BBCDE5;
+        width: 45%;
+        margin: auto;
+    }
+    .space {
+        margin: 10px auto;
+        width: 90%;
+        height: 10%;
+    }
+}
